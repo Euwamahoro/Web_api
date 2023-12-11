@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>World Weather Station</title>
+</head>
+<body>
+    <div id="typewriter-text"></div>
+    <a href="home.html" id="redirect-button">Click to start</a>
+
+    <script>
+        const text = "Hello, welcome to the world weather app station!";
+        let index = 0;
+
+        function typeWriter() {
+            if (index < text.length) {
+                document.getElementById("typewriter-text").innerHTML += text.charAt(index);
+                index++;
+                setTimeout(typeWriter, 100);
+            } else {
+                document.getElementById("redirect-button").style.display = "inline-block";
+            }
+        }
+
+        typeWriter();
+    </script>
+</body>
+</html>

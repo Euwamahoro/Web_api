@@ -1,0 +1,30 @@
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column; /* Added to align content in a column */
+        }
+
+        #typewriter-text {
+            white-space: nowrap;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            overflow: hidden;
+            border-right: 2px solid #fff;
+            margin-bottom: 20px; /* Added margin to create space between text and button */
+        }
+
+        #redirect-button {
+            display: none;
+            padding: 10px;
+            background-color: #0d0101;
+            color: #eac7c7;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
