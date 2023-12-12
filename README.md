@@ -2,7 +2,7 @@
 ## The world weather app station 
 ### Overview
 This project contains the APIs necessary to power the World Weather App Station. These APIs provide access to various weather data, enabling users to retrieve current weather conditions, forecasts, and historical weather data for locations worldwide.
-#### Features
+#### Features and functions
 Fetches information and provide access to various weather data about "the world weather app station " API.
 Displays about the weather condition around  the world
 Allows the meteorologists to monitor weather appropriately.
